@@ -1,0 +1,74 @@
+body {
+  margin: 10px;
+  background: rgb(240, 240, 240);
+  color: blue(20, 20, 20);
+  font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+  font-weight: lighter;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+h1 {
+	font-size: 50px;
+}
+h2 {
+  font-size: 24px;
+  color: blue;
+}
+a {
+  color: blue ;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+
+.banner{
+  text-align: center;
+  color: white;
+  padding: 150px 0px;
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%), url("images/10.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.banner h1 {
+  font-size: 50px;
+}
+.banner p {
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+
+.card-white {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+}
+.card-white img {
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: pink;
+  padding: 10px;
+  color: white;
+}
+.footer a {
+  color: white;
+  font-size: 10px;
+}
+
+.subscribe {
+  background-color: with;
+  padding: 10px;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}
